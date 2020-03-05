@@ -6,11 +6,11 @@ const ss = SpreadsheetApp.getActive();
 const sheet = ss.getActiveSheet();
 const range = sheet.getRange("A1");
 
-console.log(ss.toString()); // "Spreadsheet"
-console.log(sheet.toString()); // "Sheet"
-console.log(range.toString()); // "Range"
+console.log(ss.toString());         // "Spreadsheet"
+console.log(sheet.toString());      // "Sheet"
+console.log(range.toString());      // "Range"
 //  console.log(null.toString());   // Throws error
-console.log({}.toString()); // "[object Object]"
+console.log({}.toString());         // "[object Object]"
 
 /**
  * Extending the above idea, to check if an object is a Range in Apps Script
